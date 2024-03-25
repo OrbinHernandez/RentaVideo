@@ -31,7 +31,7 @@ namespace Capa_Presentacion
 
         private void BtnRentas_Click(object sender, EventArgs e)
         {
-            AF.Abrir(new Renta(), pnlContenedor, true);
+            AF.Abrir(new VRenta(), pnlContenedor, true);
         }
 
         private void Menu_Load(object sender, EventArgs e)
