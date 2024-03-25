@@ -56,7 +56,8 @@
     <Compile Include="Core\IUnitOfWork.cs" />
     <Compile Include="Core\Repository.cs" />
     <Compile Include="Core\UnitOfWork.cs" />
-    <Compile Include="DRentas.cs" />
+    <Compile Include="DClientes.cs" />
+    <Compile Include="DPeliculas.cs" />
     <Compile Include="Migrations\202403250000063_Tablas.cs" />
     <Compile Include="Migrations\202403250000063_Tablas.Designer.cs">
       <DependentUpon>202403250000063_Tablas.cs</DependentUpon>

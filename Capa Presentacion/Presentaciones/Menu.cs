@@ -21,12 +21,12 @@ namespace Capa_Presentacion
 
         private void BtnClientes_Click(object sender, EventArgs e)
         {
-            AF.Abrir(new Clientes(), pnlContenedor, true);
+            AF.Abrir(new VClientes(), pnlContenedor, true);
         }
 
         private void BtnPeliculas_Click(object sender, EventArgs e)
         {
-            AF.Abrir(new Peliculas(), pnlContenedor, true);
+            AF.Abrir(new VPeliculas(), pnlContenedor, true);
         }
 
         private void BtnRentas_Click(object sender, EventArgs e)

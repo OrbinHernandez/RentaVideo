@@ -51,7 +51,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="NRentas.cs" />
+    <Compile Include="NClientes.cs" />
+    <Compile Include="NPeliculas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -60,7 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Capa Datos\Capa Datos.csproj">
-      <Project>{F9A24433-CE26-44CC-95A9-205C9518EB14}</Project>
+      <Project>{f9a24433-ce26-44cc-95a9-205c9518eb14}</Project>
       <Name>Capa Datos</Name>
     </ProjectReference>
   </ItemGroup>

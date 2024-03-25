@@ -57,11 +57,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Presentaciones\AbrirEnMenu.cs" />
-    <Compile Include="Presentaciones\Clientes.cs">
+    <Compile Include="Presentaciones\VClientes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Presentaciones\Clientes.Designer.cs">
-      <DependentUpon>Clientes.cs</DependentUpon>
+    <Compile Include="Presentaciones\VClientes.Designer.cs">
+      <DependentUpon>VClientes.cs</DependentUpon>
     </Compile>
     <Compile Include="Presentaciones\Inicio.cs">
       <SubType>Form</SubType>
@@ -75,11 +75,11 @@
     <Compile Include="Presentaciones\Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Presentaciones\Peliculas.cs">
+    <Compile Include="Presentaciones\VPeliculas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Presentaciones\Peliculas.Designer.cs">
-      <DependentUpon>Peliculas.cs</DependentUpon>
+    <Compile Include="Presentaciones\VPeliculas.Designer.cs">
+      <DependentUpon>VPeliculas.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -89,8 +89,8 @@
     <Compile Include="Presentaciones\VRenta.Designer.cs">
       <DependentUpon>VRenta.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Presentaciones\Clientes.resx">
-      <DependentUpon>Clientes.cs</DependentUpon>
+    <EmbeddedResource Include="Presentaciones\VClientes.resx">
+      <DependentUpon>VClientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentaciones\Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
@@ -98,8 +98,8 @@
     <EmbeddedResource Include="Presentaciones\Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Presentaciones\Peliculas.resx">
-      <DependentUpon>Peliculas.cs</DependentUpon>
+    <EmbeddedResource Include="Presentaciones\VPeliculas.resx">
+      <DependentUpon>VPeliculas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
