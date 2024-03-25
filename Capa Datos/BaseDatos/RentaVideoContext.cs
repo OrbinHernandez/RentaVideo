@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Capa_Datos.Modelos;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
@@ -14,7 +15,6 @@ namespace Capa_Datos.BaseDatos
         {
 
         }
-
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -22,7 +22,7 @@ namespace Capa_Datos.BaseDatos
             modelBuilder.Conventions.Remove<ManyToManyCascadeDeleteConvention>();
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
         }
-
-        //public DbSet<ClasificacionCliente> ClasificacionClientes { get; set; }
+        public DbSet<Peliculas> Peliculas { get; set; }
+        public DbSet<Clientes> Clientes { get; set; }
     }
 }
