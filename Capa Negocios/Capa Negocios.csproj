@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="NClientes.cs" />
     <Compile Include="NPeliculas.cs" />
+    <Compile Include="NRenta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
