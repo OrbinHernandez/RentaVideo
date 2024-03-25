@@ -62,9 +62,14 @@
     <Compile Include="Migrations\202403250000063_Tablas.Designer.cs">
       <DependentUpon>202403250000063_Tablas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202403250045427_TablaRentas.cs" />
+    <Compile Include="Migrations\202403250045427_TablaRentas.Designer.cs">
+      <DependentUpon>202403250045427_TablaRentas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Modelos\Clientes.cs" />
     <Compile Include="Modelos\Peliculas.cs" />
+    <Compile Include="Modelos\Renta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -74,6 +79,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202403250000063_Tablas.resx">
       <DependentUpon>202403250000063_Tablas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202403250045427_TablaRentas.resx">
+      <DependentUpon>202403250045427_TablaRentas.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
