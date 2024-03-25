@@ -16,11 +16,14 @@ namespace Capa_Presentacion
     public partial class VRenta : Form
     {
         NRenta nRenta;
-        
+        NClientes nClientes;
+        NPeliculas nPeliculas;
         public VRenta()
         {
             InitializeComponent();
             nRenta = new NRenta();
+            nClientes = new NClientes();
+            nPeliculas = new NPeliculas();
         }
 
         void Limpiar()
@@ -165,6 +168,7 @@ namespace Capa_Presentacion
         private void Renta_Load(object sender, EventArgs e)
         {
             Cargar();
+            Combo();
         }
 
         private void BtnGuardar_Click(object sender, EventArgs e)
