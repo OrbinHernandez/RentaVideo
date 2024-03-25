@@ -63,6 +63,7 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Modelos\Clientes.cs" />
     <Compile Include="Modelos\Peliculas.cs" />
+    <Compile Include="Modelos\Renta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
