@@ -83,11 +83,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Presentaciones\Renta.cs">
+    <Compile Include="Presentaciones\VRenta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Presentaciones\Renta.Designer.cs">
-      <DependentUpon>Renta.cs</DependentUpon>
+    <Compile Include="Presentaciones\VRenta.Designer.cs">
+      <DependentUpon>VRenta.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Presentaciones\Clientes.resx">
       <DependentUpon>Clientes.cs</DependentUpon>
@@ -111,8 +111,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Presentaciones\Renta.resx">
-      <DependentUpon>Renta.cs</DependentUpon>
+    <EmbeddedResource Include="Presentaciones\VRenta.resx">
+      <DependentUpon>VRenta.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -148,6 +148,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Video Clip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Capa Datos\Capa Datos.csproj">
+      <Project>{f9a24433-ce26-44cc-95a9-205c9518eb14}</Project>
+      <Name>Capa Datos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Capa Negocios\Capa Negocios.csproj">
+      <Project>{4033e346-88fb-4685-b5b2-2f2be2995e18}</Project>
+      <Name>Capa Negocios</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

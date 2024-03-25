@@ -33,7 +33,6 @@ namespace Capa_Datos.Modelos
         public int Cantidad { get; set; }
 
         [Required]
-        [Column(TypeName = "decimal(10, 2)")]
         public decimal PrecioRenta { get; set; }
     }
 }

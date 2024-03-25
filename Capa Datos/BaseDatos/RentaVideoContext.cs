@@ -23,6 +23,7 @@ namespace Capa_Datos.BaseDatos
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
         }
         public DbSet<Peliculas> Peliculas { get; set; }
+        public DbSet<Renta> Renta { get; set; }
         public DbSet<Clientes> Clientes { get; set; }
     }
 }
