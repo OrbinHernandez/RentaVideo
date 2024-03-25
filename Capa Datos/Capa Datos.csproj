@@ -56,6 +56,13 @@
     <Compile Include="Core\IUnitOfWork.cs" />
     <Compile Include="Core\Repository.cs" />
     <Compile Include="Core\UnitOfWork.cs" />
+    <Compile Include="Migrations\202403250000063_Tablas.cs" />
+    <Compile Include="Migrations\202403250000063_Tablas.Designer.cs">
+      <DependentUpon>202403250000063_Tablas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Modelos\Clientes.cs" />
+    <Compile Include="Modelos\Peliculas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -63,7 +70,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Modelos\" />
+    <EmbeddedResource Include="Migrations\202403250000063_Tablas.resx">
+      <DependentUpon>202403250000063_Tablas.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
